@@ -17,9 +17,9 @@ jobs:
       - name: Set up gcloud CLI
         uses: google-github-actions/setup-gcloud@v1
         with:
-          project_id: my-gcp-project
-          workload_identity_provider: projects/123456789/locations/global/workloadIdentityPools/github-pool/providers/github-provider
-          service_account: vertexai-ci@my-gcp-project.iam.gserviceaccount.com
+          project_id: arctic-rite-403213
+          workload_identity_provider: projects/981455329465/locations/global/workloadIdentityPools/github-pool/providers/github-provider
+          service_account: vertexai-ci@arctic-rite-403213.iam.gserviceaccount.com
 
       - name: Install Python deps
         run: |
